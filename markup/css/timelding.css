@@ -1,0 +1,44 @@
+.timelding-form .btn-list {margin:10px 0 12px;}
+.timelding-form .btn-list li {margin:0 2px;}
+.timelding-form .btn-list a {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 6px;
+	font-size:11px;
+}
+.timelding-form .row {margin:0 0 10px;}
+.timelding-form .text-row label {
+	width:95px;
+	margin:0 8px 0 0;
+	line-height:22px;
+}
+.timelding-form .text {width:260px;}
+.timelding-form .radio-btn-holder {
+	padding:5px 10px;
+	border:1px solid #dcdada;
+	background:#fff;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-o-border-radius:8px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+	margin:0 0 15px;
+}
+.timelding-form .radio-btn-holder .radio-holder {
+	margin:4px 0 0;
+	overflow:hidden;
+	float:none;
+}
+.timelding-form .radio-btn-holder h3 {
+	font-weight:normal;
+	margin:0 0 8px;
+}
+.timelding-form .radio-holder .chk-area {
+	margin:0 7px 0 0;
+}
+.timelding-form .radio-holder label {
+	line-height:14px;
+	margin:-1px 0 0;
+	float:left;
+}

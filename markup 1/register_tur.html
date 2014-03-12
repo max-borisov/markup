@@ -1,0 +1,292 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>CARGOMARKET</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/register_tur.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+  <script type="text/javascript" src="js/mobile-detect.js"></script>
+  <script type="text/javascript" src="js/clear.Input.on.Focus.js"></script>
+  <script type="text/javascript" src="js/jcf.js"></script>
+  <script type="text/javascript" src="js/jcf.select.js"></script>
+  <script type="text/javascript" src="js/jquery.tabs.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css" />
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div class="wrapper add-wrapper">
+		<header id="header">
+			<h1 class="logo"><a href="#">cargomarket find den bedste fragtrips</a></h1>
+			<div class="nav-holder">
+				<ul class="country-nav">
+					<li><a class="deutch-ico" href="#">deutch</a></li>
+					<li><a class="english-ico" href="#">english</a></li>
+					<li><a class="germany-ico" href="#">germany</a></li>
+					<li><a class="logout-link" href="#">Log ud</a></li>
+				</ul>
+				<nav class="top-nav">
+					<ul>
+						<li><a href="#">Tilmelding</a></li>
+						<li><a href="#">Om Cargo Market</a></li>
+						<li><a href="#">Kontakt</a></li>
+						<li class="log-holder"><a href="#">Logget ind</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="log-box">
+				<span class="log-name">Du er loget på som Kim Danielsen.</span>
+				<span class="log-time">Sidst logget på 23.4.2012. kl. 18:36.</span>
+			</div>
+		</header>
+		<div id="main">
+			<nav id="page-nav">
+				<ul>
+					<li><a href="#">Registrer gods<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Stamdata<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Tidligere registreret gods<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Brugere<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Registrer bil<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Kontakter<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Takster ved kørsel<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a class="active" href="#">Registrer tur<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a class="last-link" href="#">Præsentationsside<span class="decor-corner">&nbsp;</span></a></li>
+				</ul>
+			</nav>
+			<div id="content">
+				<h2>Register tur</h2>
+				<form class="register-tur-form" action="#">					<fieldset>						<div class="form-box">
+							<div class="error-box">
+								<p>Error in the text field.</p>
+								<p>Error in the password field.</p>
+								<p>Wrong email.</p>
+							</div>
+							<p class="error-text">Fields marked <span>*</span> are required</p>
+							<div class="register-box first-register-box">
+								<strong>Fra:</strong>
+								<div class="register-box-holder">
+									<div class="row">
+										<label for="land-fra">Land:</label>										<select id="land-fra">
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+										</select>
+									</div>
+									<div class="row">										<label for="post-fra">Post nr. & By:</label>										<input id="post-fra" class="text add-text" type="text" value="" />
+										<input class="text" type="text" value="" />									</div>
+									<div class="row">
+										<label for="datepicker-fra">Dato:</label>										<input id="datepicker-fra" class="text datepicker-text" type="text" value="" />
+									</div>
+									<div class="row">
+										<label for="tidspunkt-fra">Tidspunkt:</label>										<input id="tidspunkt-fra" class="text add-text" type="text" value="" />
+									</div>
+								</div>
+							</div>
+							<ul class="btn-list">
+								<li><a href="#">Fjern via pkt.</a></li>
+								<li><a href="#">Tilføj via pkt.</a></li>
+							</ul>
+							<div class="register-box">
+								<strong>Til:</strong>
+								<div class="register-box-holder">
+									<div class="row">
+										<label for="land-til">Land:</label>
+										<select id="land-til">
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+										</select>
+									</div>
+									<div class="row">
+										<label for="post-til">Post nr. & By:</label>
+										<input id="post-til" class="text add-text" type="text" value="" />
+										<input class="text" type="text" value="" />
+									</div>
+									<div class="row">
+										<label for="datepicker-til">Dato:</label>
+										<input id="datepicker-til" class="text datepicker-text" type="text" value="" />
+									</div>
+									<div class="row">
+										<label for="tidspunkt-til">Tidspunkt:</label>
+										<input id="tidspunkt-til" class="text add-text" type="text" value="" />
+									</div>
+								</div>
+							</div>
+							<div class="register-box">
+								<strong>Bil:</strong>
+								<div class="register-box-holder">
+									<div class="row">
+										<label for="land-bil">Bil:</label>
+										<select id="land-bil">
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+											<option value="Danmark">Danmark</option>
+											<option value="Danmark01">Danmark01</option>
+											<option value="Danmark02">Danmark02</option>
+											<option value="Danmark03">Danmark03</option>
+											<option value="Danmark04">Danmark04</option>
+											<option value="Danmark05">Danmark05</option>
+										</select>
+									</div>
+									<div class="row bil-row">
+										<label for="hvilken">Hvilken bil kører turen:<span class="required">*</span></label>
+										<input id="hvilken" class="text" type="text" value="" />
+									</div>
+									<div class="row bil-row">
+										<label for="afvigelse">Maks afvigelse for turen:<span class="required">*</span></label>
+										<input id="afvigelse" class="text" type="text" value="eks. 30 km" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-box map-holder">
+							<img src="images/map-img.jpg" width="384" height="148" alt="image description">
+						</div>
+						<div class="register-box">
+								<strong>Gentagende tur:</strong>
+								<div class="radio-box bottom-radio-box">
+									<div class="row">
+										<label>Gentagende tur:</label>
+										<div class="radio-frame">
+											<div class="radio-holder">
+												<label for="loft-yes">Ja</label>
+												<input id="loft-yes" checked="checked" class="radio" name="loft" type="radio" />
+											</div>
+											<div class="radio-holder">
+												<input id="loft-no" class="radio" name="loft" type="radio" />
+												<label for="loft-no">Nej</label>
+											</div>
+										</div>
+									</div>
+									<div class="hidden-row text-box">
+										<span class="mask">&nbsp;</span>
+										<div class="row">
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="mandag" class="radio" name="loft" type="radio" />
+													<label for="mandag">Mandag</label>
+												</div>
+											</div>
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="tirsdag" class="radio" name="loft" type="radio" />
+													<label for="tirsdag">Tirsdag</label>
+												</div>
+											</div>
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="onsdag" class="radio" name="loft" type="radio" />
+													<label for="onsdag">Onsdag</label>
+												</div>
+											</div>
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="torsdag" class="radio" name="loft" type="radio" />
+													<label for="torsdag">Torsdag</label>
+												</div>
+											</div>
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="fredag" class="radio" name="loft" type="radio" />
+													<label for="fredag">Fredag</label>
+												</div>
+											</div>
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="lordag" class="radio" name="loft" type="radio" />
+													<label for="lordag">Lørdag</label>
+												</div>
+											</div>
+											<div class="radio-frame">
+												<div class="radio-holder">
+													<input id="sondag" class="radio" name="loft" type="radio" />
+													<label for="sondag">Søndag</label>
+												</div>
+											</div>
+										</div>
+										<div class="row text-row">
+											<label for="eks-time">Tid for tur start</label>											<input id="eks-time" class="text" type="text" value="eks. 07:30" />
+										</div>
+									</div>
+								</div>
+							</div>
+						<div class="submit-holder">
+							<input class="submit" type="submit" value="Registrer tur" />
+						</div>					</fieldset>				</form>
+			</div>
+			<aside id="aside">
+				<h3>NEWS</h3>
+				<div class="holder">
+					<div class="aside-box">
+						<p>Gennemførte ordre seneste<br/> 24 timer / Uge / Måned</p>
+					</div>
+					<div class="aside-box">
+						<p>Udtalelse fra brugere</p>
+						<span class="span-margin">Svend Bent fra Grafisk Lys:
+							Vi plejer at bruge den 
+							samme leverandør hver 
+							gang, men har nu ved at 
+							bruge Cargo Market sparet 
+							15 % i snit på vores 
+							transporter, så det;)
+						</span>
+					</div>
+					<div class="aside-box">
+						<p>Seneste tilmeldte transportør/speditør</p>
+						<address>Det bedste bud 7400<br /> Herning</address>
+						<address>Budstikken 5000<br /> Odense</address>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</div>
+</body>
+</html>

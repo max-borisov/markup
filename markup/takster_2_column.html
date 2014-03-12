@@ -1,0 +1,296 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>CARGOMARKET</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/takster.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+  <script type="text/javascript" src="js/mobile-detect.js"></script>
+  <script type="text/javascript" src="js/clear.Input.on.Focus.js"></script>
+  <script type="text/javascript" src="js/jcf.js"></script>
+  <script type="text/javascript" src="js/jcf.select.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div class="wrapper wrapper-holder">
+		<header id="header">
+			<h1 class="logo"><a href="#">cargomarket find den bedste fragtrips</a></h1>
+			<div class="nav-holder">
+				<ul class="country-nav">
+					<li><a class="deutch-ico" href="#">deutch</a></li>
+					<li><a class="english-ico" href="#">english</a></li>
+					<li><a class="germany-ico" href="#">germany</a></li>
+					<li><a class="logout-link" href="#">Log ud</a></li>
+				</ul>
+				<nav class="top-nav">
+					<ul>
+						<li><a href="#">Tilmelding</a></li>
+						<li><a href="#">Om Cargo Market</a></li>
+						<li><a href="#">Kontakt</a></li>
+						<li class="log-holder"><a href="#">Logget ind</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="log-box">
+				<span class="log-name">Du er loget på som Kim Danielsen.</span>
+				<span class="log-time">Sidst logget på 23.4.2012. kl. 18:36.</span>
+			</div>
+		</header>
+		<div id="main">
+			<nav id="page-nav">
+				<ul>
+					<li><a href="#">Registrer gods<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Stamdata<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Tidligere registreret gods<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Brugere<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Registrer bil<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Kontakter<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a class="active" href="#">Takster ved kørsel<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Registrer tur<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a class="last-link" href="#">Præsentationsside<span class="decor-corner">&nbsp;</span></a></li>
+				</ul>
+			</nav>
+			<div class="takster-content">
+				<form class="takster-form" action="#">					<fieldset>
+						<h2>Grundtakst for kørsel med gods </h2>						<div class="takster-holder">
+							<div class="row">
+								<div class="radio-holder">
+									<label for="hastetraspotrt">Hastetraspotrt</label>
+									<div class="chk-area"><input type="radio" name="transport" class="radio" id="hastetraspotrt" checked="checked"></div>
+								</div>
+								<div class="radio-holder">
+									<div class="chk-area chk-checked"><input type="radio" name="transport" class="radio" id="normal-transport" ></div>
+									<label for="normal-transport">Normal transport</label>
+								</div>
+							</div>
+							<div class="row text-row">
+								<label for="pr-km">Pr.km.</label>
+								<input type="text" value="8,00" class="text" id="pr-km">
+								<span class="mark-span">kr</span>
+								<input type="text" value="6,00" class="text">
+								<span>kr</span>
+							</div>
+							<div class="row">
+								<h3 class="takster-heading">Tillæg pr. km ved:</h3>
+							</div>
+							<div class="row text-row">
+								<label for="frys">Køl / frys</label>
+								<input type="text" value="0,50" class="text" id="frys">
+								<span class="mark-span">kr</span>
+								<input type="text" value="0,25" class="text">
+								<span>kr</span>
+							</div>
+							<div class="row text-row">
+								<label for="adr">ADR kørsel</label>
+								<input type="text" value="2,00" class="text" id="adr">
+								<span class="mark-span">kr</span>
+								<input type="text" value="1,00" class="text">
+								<span>kr</span>
+							</div>							<div class="row text-row">
+								<label for="adr">SLV</label>
+								<input type="text" value="1,00" class="text" id="slv">
+								<span class="mark-span">kr</span>
+								<input type="text" value="0,50" class="text">
+								<span>kr</span>
+							</div>
+							<div class="row text-row">
+								<label for="olie">Olie tillæg</label>
+								<input type="text" value="5" class="text" id="olie">
+								<span class="mark-span">%</span>
+								<input type="text" value="5" class="text">
+								<span>%</span>
+							</div>
+							<div class="row text-row">
+								<label for="via-punkt">Via punkt</label>
+								<input type="text" value="50,00" class="text" id="via-punkt">
+								<span class="mark-span">kr</span>
+								<input type="text" value="50,00" class="text">
+								<span>kr</span>
+							</div>
+							<div class="row">
+								<h3 class="takster-heading">Fast tillæg ved:</h3>
+							</div>
+							<div class="row text-row">
+								<label for="fortoldning">Fortoldning</label>
+								<input type="text" value="300,00" class="text" id="fortoldning">
+								<span class="mark-span">kr</span>
+								<input type="text" value="300,00" class="text">
+								<span>kr</span>
+							</div>							<div class="row text-row">
+								<label for="forsikring">Forsikring</label>
+								<input type="text" value="500,00" class="text" id="forsikring">
+								<span class="mark-span">kr</span>
+								<input type="text" value="500,00" class="text">
+								<span>kr</span>
+							</div>							<div class="row text-row">
+								<label for="faktureringsgebyr">Faktureringsgebyr</label>
+								<input type="text" value="25,00" class="text" id="faktureringsgebyr">
+								<span class="mark-span">kr</span>
+								<input type="text" value="25,00" class="text">
+								<span>kr</span>
+							</div>							<div class="row text-row">
+								<label for="weekend">Weekend / aften tillæg %</label>
+								<input type="text" value="10" class="text" id="weekend">
+								<span class="mark-span">%</span>
+								<input type="text" value="10" class="text">
+								<span>%</span>
+							</div>							<div class="row text-row bottom-row">
+								<label for="mindstepris">Mindstepris</label>
+								<input type="text" value="500" class="text" id="mindstepris">
+								<span class="mark-span">kr</span>
+								<input type="text" value="500" class="text">
+								<span>kr</span>
+							</div>
+							<div class="row bottom-row">
+								<span class="bottom-span">Skal priser vises unden man har biler?</span>
+								<div class="radio-holder">
+									<label for="skal-yes">Ja</label>
+									<div class="chk-area"><input type="radio" name="skal-priser" class="radio" id="skal-yes" checked="checked"></div>
+								</div>
+								<div class="radio-holder">
+									<div class="chk-area chk-checked"><input type="radio" name="skal-priser" class="radio" id="skal-no" ></div>
+									<label for="skal-no">Nej</label>
+								</div>
+							</div>
+						</div>
+						<h2>Andre lande end Danmark</h2>
+						<div class="takster-holder">
+							<div class="row heading-row">
+								<span class="brev">Brev</span>
+								<span class="pakke">Pakke (op til 30 kg)</span>
+								<span>m3*</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Afrika</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Antarktis</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Asien</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Europa</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Nord Amerika</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Oceanien</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<div class="row text-row bottom-text-row">
+								<select>
+									<option value="Danmark">Syd Amerika</option>
+									<option value="Danmark01">Danmark01</option>
+									<option value="Danmark02">Danmark02</option>
+									<option value="Danmark03">Danmark03</option>
+									<option value="Danmark04">Danmark04</option>
+									<option value="Danmark05">Danmark05</option>
+								</select>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="8,00" />
+								<span>kr</span>
+								<input class="text" type="text" value="1,800" />
+								<span>kr</span>
+							</div>
+							<span class="bottom-text">* L:120cm B:80cm H:160cm</span>
+						</div>
+						<div class="row">
+							<input class="submit" type="submit" value="Register" />
+							<ul class="btn-list priser-list">
+								<li><a href="#">Fortryd</a></li>
+								<li><a href="#">Nulstil</a></li>
+							</ul>
+						</div>					</fieldset>				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

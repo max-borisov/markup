@@ -1,0 +1,50 @@
+.register-bil-form .form-box {
+	padding:16px 36px;
+}
+.register-bil-form .form-box>.row {margin:0;}
+.register-bil-form .email-row .text {width:229px;}
+.register-bil-form label {
+	float:left;
+	font-weight:bold;
+	color:#201F20;
+	line-height:21px;
+}
+.register-bil-form .email-row label {width:85px;}
+.register-bil-form .text-mark-holder label {
+	width:107px;
+	margin:0;
+}
+.register-bil-form .bottom-form>strong {
+	display:block;
+	margin:0 0 4px;
+}
+.register-bil-form .text-mark-holder  {
+	border:1px solid #A09892;
+	padding:9px 21px;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+}
+
+.register-bil-form .submit-holder {
+	padding:0 3px 20px 0;
+}
+.register-bil-form .btn-list {
+	float:right;
+}
+.register-bil-form .btn-list li {
+	margin:0 27px 0 0;
+}
+.register-bil-form .btn-list a {
+	padding:0;
+	width:106px;
+	height:33px;
+	line-height:33px;
+}
+.register-bil-form .bottom-form {
+	margin:21px 0 0;
+}
+.register-bil-form .radio-box .row>label {width:103px;}
+.register-bil-form .radio-box label {line-height:13px;}

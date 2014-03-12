@@ -1,0 +1,57 @@
+.tidligere-form table th,
+.tidligere-form table td {text-align:left;}
+.tidligere-form table th {
+	height:28px;
+	vertical-align:top;
+}
+.tidligere-form table .num-column {width:15px;}
+.tidligere-form table .date-column {width:75px;}
+.tidligere-form table .fra-column {width:67px;}
+.tidligere-form table .til-column {width:67px;}
+.tidligere-form table .vegt-column {width:56px;}
+.tidligere-form table .m3-column {width:68px;}
+.tidligere-form table .registrant-column {width:112px;}
+.tidligere-form table .leverandor-column {width:90px;}
+.tidligere-form table .pris-column {width:50px;}
+.column-holder {
+	overflow:hidden;
+	padding:0 0 25px 25px;
+}
+.column-holder .column {
+	float:left;
+	margin:0 15px 0 0;
+}
+.text-box {
+	overflow:hidden;
+	padding:0 12px 0 0;
+}
+.column-holder .column>label,
+.column-holder .column>span {
+	display:block;
+	margin:0 0 5px;
+	line-height:13px;
+}
+.column-holder .text {
+	width:65px;
+	color:#2e9cce;
+}
+.column-holder .select-area {
+	width:100px !important;
+	clear:left;
+}
+.column-holder .submit {
+	color:#fff;
+	float:left;
+	margin:19px 0 0;
+	background:#1d70b8;
+	border:0 none !important;
+	width:72px;
+	font-size:13px;
+	height:20px;
+	cursor:pointer;
+	line-height:20px;
+	box-shadow:0 0 0 #000;
+	-moz-box-shadow:0 0 0 #000;
+	-webkit-box-shadow:0 0 0 #000;
+}
+.column-holder .text-holder label {margin:0 10px;}

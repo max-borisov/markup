@@ -1,0 +1,229 @@
+#content.brugere-content {
+	padding:8px 10px;
+	width:595px;
+}
+.brugere-heading {
+	overflow:hidden;
+	margin:0 0 6px;
+}
+.brugere-heading h2 {
+	margin:0;
+	float:left;
+}
+.brugere-link,
+.brugere-form .submit {
+	float:right;
+	text-decoration:none;
+	color:#fff;
+	background:#1d70b8;
+	border:1px solid #000;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+	height:18px;
+	width:174px;
+	line-height:18px;
+	text-align:center;
+}
+.form-row {
+	border:1px solid #aca7a6;
+	padding:5px;
+	margin:0 0 7px;
+	background:#fff;
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	-o-border-radius:8px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+	overflow:hidden;
+}
+.link-list {
+	padding:0 0 0 4px;
+	margin:0;
+	list-style:none;
+	border-left:1px solid #aca7a6;
+	float:right;
+}
+.brugere-form-holder {float:left;}
+.brugere-form {
+	display:none;
+	position:relative;
+}
+.submit-holder {
+	padding:0;	margin:0;	list-style:none;
+	float:right;
+	width:185px;
+	text-align:center;
+	overflow:visible;
+}
+.row-frame {
+	float:left;
+	width:392px;
+}
+.brugere-form .select-area {
+	width:117px !important;
+	margin:0 10px 0 0;
+	float:left;
+}
+.brugere-form .row {margin:4px 0 0;}
+.column-name {
+	display:block;
+	margin:0 0 6px;
+}
+.column-value {
+	color:#2e9cce;
+}
+.column {
+	float:left;
+	width:93px;
+}
+.edit-row {
+	background:#f18625;
+}
+.edit-row .column {width:144px;}
+.edit-row .column-mobilnr {width:107px;}
+.edit-row .column-administrator {width:102px;}
+.edit-row .column-nyhedsbrev {width:75px;}
+.heading-form {overflow:hidden;}
+.brugere-form {
+	overflow:hidden;
+}
+.brugere-form .radio-holder label {margin:0 4px;}
+.brugere-form .row .radio-holder {margin-top:5px;}
+.brugere-form .row:first-child .radio-holder {margin:5px 0 0 6px;}
+.brugere-form .row-frame  .row:first-child .radio-holder { margin-left:12px;}
+.wide-text {
+	width:115px;
+	margin:0 7px 0 0;
+}
+.short-text {
+	width:75px;
+	margin:0 4px 0 0;
+}
+.with-mark01 {
+	float:left;
+	width:18px;
+}
+.with-mark02 {
+	float:left;
+	width:40px;
+}
+.middle-heading-row {padding:15px 0 0;}
+.middle-heading-row span {
+	float:left;
+	width:137px;
+}
+.middle-heading-row span:first-child {width:161px;}
+.brugere-form .brugere-link {
+	margin:0 0 15px;
+	float:none;
+	display:inline-block;
+	vertical-align:top;
+}
+.brugere-form .submit {
+	cursor:pointer;
+	outline:none;
+	float:none;
+	display:inline-block;
+	vertical-align:top;
+	box-shadow:0 0 0 #000;
+	-webkit-box-shadow:0 0 0 #000;
+	-moz-box-shadow:0 0 0 #000;
+	font-weight:normal;
+}
+.brugere-form .submit:hover {
+	box-shadow:0 0 5px #000;
+	-webkit-box-shadow:0 0 5px #000;
+	-moz-box-shadow:0 0 5px #000;
+}
+#content .brugere-heading h2 {margin:0;}
+.brugere-heading .brugere-link {
+	margin:8px 0 0;
+	z-index:3;
+}
+.inviter-holder {
+	position:relative;
+}
+.inviter-holder:after {
+	content:'';	display:block;	clear:both;
+}
+.inviter-box {
+	margin:12px 0 0;
+	padding:5px 10px;
+	background:#f6f6f6;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border:2px solid #787878;
+	width:520px;
+	float:right;
+}
+.inviter-box .row {
+	margin:10px 0 0;
+}
+.inviter-box .row:first-child {margin:0;}
+.inviter-box label {
+	float:none;
+	display:block;
+	line-height:14px;
+	margin:0 0 3px;
+	color:#282523;
+	font-weight:bold;
+}
+.initer-text-holder {
+	float:left;
+	margin:0 0 0 20px;
+}
+.initer-text-holder:first-child {margin:0;}
+.submit {
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	box-shadow:0 0 0 #000;
+	-webkit-box-shadow:0 0 0 #000;
+	-moz-box-shadow:0 0 0 #000;
+	behavior:url(css/PIE.htc);
+	background:#ea561a url(../images/brugere-inviter-submit.gif) repeat-x;
+	height:19px;
+	border:0 none;
+	cursor:pointer;
+	border:1px solid #000;
+	color:#fff;
+	float:right;
+	width:126px;
+}
+.inviter-box .text {
+	color:#1d71b8;
+	width:200px;
+}
+.inviter-box textarea {
+	color:#1d71b8;
+	width:500px !important;
+	min-height:40px;
+}
+.inviter-holder .decor-box-left {
+	left:auto;
+	right:174px;
+	top:26px;
+}
+.inviter-holder .decor-box {
+	top:26px;
+}
+.inviter-holder .decor-box-center,
+.inviter-holder .decor-box-center01 {
+    background: #f6f6f6;
+    height: 5px;
+    left: auto;
+    position: absolute;
+    right: 2px;
+    top: 40px;
+    width: 177px;
+}
+.inviter-holder .decor-box-center01 {
+	height:11px;
+	top:29px;
+}

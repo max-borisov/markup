@@ -1,0 +1,158 @@
+.presentationsside-content {
+    overflow: hidden;
+    width: 618px;
+	float:left;
+}
+.presentationsside-box,
+.eksempelside-box {
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+	background: url("../images/bg-form-holder.gif");
+	padding: 8px 25px 8px 18px;
+	border:2px solid #787878;
+	margin:0 0 25px;
+}
+#main .presentationsside-content h2 {
+	font-size: 26px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0 0 20px;
+}
+.presentationsside-box .row label {
+	display:block;
+	margin:0 0 4px;
+	float:none;
+}
+.presentationsside-box textarea {
+	color:#2e9cce;
+	width:548px !important;
+}
+.presentationsside-box .text {
+	color:#2e9cce;
+	width:427px;
+}
+.referance-holder {
+	overflow:hidden;
+	padding:15px 0 0;
+}
+.referance-holder>span {
+	float:left;
+	width:70px;
+}
+.referance-box {
+	float:right;
+	width:490px;
+}
+.referance-box .link-list {
+	float:left;
+	margin:4px 0 0;
+}
+.referance-box .link-list li {
+	float:left;
+	margin:0 4px 0 0;
+}
+.mark-btn-list { text-align:right;}
+.mark-btn-list li {margin:0 0 0 25px;}
+.mark-btn-list a {
+	height:35px;
+	font-weight:bold;
+	line-height:35px;
+	padding:0 42px;
+	background:#FF7F00;
+	color:#fff;
+}
+.eksempelside-box {
+	overflow:hidden;
+	padding:30px 10px 20px;
+}
+.eksempelside-box>section {
+	float:left;
+	width:175px;
+	min-height:500px;
+	position:relative;
+}
+.address-section,
+.referance-column,
+.address-section,
+.info-box,
+.fakta-column {
+	float:left;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+	border:2px solid #787878;
+	background:#fff;
+	padding:7px;
+}
+.referance-column {
+	padding-right:20px;
+	margin:0 10px 0 0;
+}
+.eksempelside-box .info-column {
+	margin:0 10px 0 0;
+	padding:0 0 50px;
+	min-height:467px;
+}
+.info-column .mark-btn-list {
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.info-column .mark-btn-list li {margin:0;}
+.info-column .address-section {
+	margin:0 0 30px;
+	width:157px;
+}
+.info-column address {
+	font-style:normal;
+	margin:0;
+}
+.block-span {display:block;}
+.presentationsside-content h3 {
+	color:#2e9cce;
+	font-weight:normal;
+	font-size:14px;
+	margin:0 0 8px;
+}
+.eksempelside-box p {margin:0 0 12px;}
+.eksempelside-holder {
+	position:relative;
+	padding:9px 0 0;
+	display:none;
+}
+.eksempelside-holder .decor-box-left {
+	left:265px;
+	top:-5px;
+}
+.eksempelside-holder .decor-box-right {
+	left:auto;
+	right:137px;
+	top:-5px;
+}
+.eksempelside-holder .decor-box-center {
+	background: url("../images/bg-form-holder.gif");
+	height: 11px;
+	left: auto;
+	right: 149px;
+	top: 0;
+	width: 191px;
+	z-index: 3;
+}
+.eksempelside-holder .add-decor-center {
+	height: 2px;
+	right: 148px;
+	top: 9px;
+	width: 196px;
+}
+.mark-btn-list a.active-eksempelside-link {
+	background:#1d70b8;
+	color:#fff;
+	border-color:#787878 !important;
+}

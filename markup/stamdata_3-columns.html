@@ -1,0 +1,329 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>CARGOMARKET</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/stamdata.css">
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+  <script type="text/javascript" src="js/mobile-detect.js"></script>
+  <script type="text/javascript" src="js/clear.Input.on.Focus.js"></script>
+  <script type="text/javascript" src="js/jcf.js"></script>
+  <script type="text/javascript" src="js/jcf.radio.js"></script>
+  <script type="text/javascript" src="js/jcf.select.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div class="wrapper">
+		<header id="header">
+			<h1 class="logo"><a href="#">cargomarket find den bedste fragtrips</a></h1>
+			<div class="nav-holder">
+				<ul class="country-nav">					<li><a class="deutch-ico" href="#">deutch</a></li>					<li><a class="english-ico" href="#">english</a></li>					<li><a class="germany-ico" href="#">germany</a></li>
+					<li><a class="logout-link" href="#">Log ud</a></li>				</ul>
+				<nav class="top-nav">
+					<ul>
+						<li><a href="#">Tilmelding</a></li>
+						<li><a href="#">Om Cargo Market</a></li>
+						<li><a href="#">Kontakt</a></li>
+						<li class="log-holder"><a href="#">Logget ind</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="log-box">
+				<span class="log-name">Du er loget på som Kim Danielsen.</span>
+				<span class="log-time">Sidst logget på 23.4.2012. kl. 18:36.</span>
+			</div>
+		</header>
+		<div id="main">
+			<nav id="page-nav">
+				<ul>
+					<li><a href="#">Registrer gods<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a class="active" href="#">Stamdata<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Tidligere registreret gods<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Brugere<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Registrer bil<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Kontakter<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Takster ved kørsel<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a href="#">Registrer tur<span class="decor-corner">&nbsp;</span></a></li>
+					<li><a class="last-link" href="#">Præsentationsside<span class="decor-corner">&nbsp;</span></a></li>
+				</ul>
+			</nav>
+			<div id="content">
+				<h2>Stamdata</h2>
+				<form class="stamdata-form" action="#">					<fieldset>						<div class="form-box">
+							<div class="error-box">
+								<p>Error in the text field.</p>
+								<p>Error in the password field.</p>
+								<p>Wrong email.</p>
+							</div>
+							<div class="stamdata-top-box">
+								<div class="row">
+									<label for="cvr">CVR:</label>									<input id="cvr" class="text" type="text" value="TS@densen.dk" />
+								</div>
+								<div class="row">
+									<label for="firmanavn">Firmanavn:</label>
+									<input id="firmanavn" class="text" type="text" value="" />
+								</div>
+								<div class="row">
+									<label for="land">Land:</label>
+									<input id="land" class="text" type="text" value="" />
+								</div>
+								<div class="row">
+									<label for="adresse">Adresse:</label>
+									<input id="adresse" class="text" type="text" value="" />
+								</div>
+								<div class="row add-row">
+									<label for="postnummer">Postnummer & By:</label>
+									<input id="postnummer" class="text small-text" type="text" value="" />
+									<input class="text" type="text" value="" />
+								</div>
+								<div class="row">
+									<label for="telefon">Telefon:</label>
+									<input id="telefon" class="text" type="text" value="" />
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>SLV:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="slv-ja">Ja</label>
+											<input id="slv-ja" checked="checked" class="radio" name="slv" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="slv-no" class="radio" name="slv" type="radio" />
+											<label for="slv-no">Nej</label>
+										</div>
+									</div>								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Autorisation til transport af fødevarer:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="fodevarar-ja">Ja</label>
+											<input id="fodevarar-ja" class="radio" name="fodevarar" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="fodevarar-no" class="radio" name="fodevarar" type="radio" />
+											<label for="fodevarar-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Autorisation til transport af farligt gods:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="frligt-ja">Ja</label>
+											<input id="frligt-ja" class="radio" name="frligt" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="frligt-no" class="radio" name="frligt" type="radio" />
+											<label for="frligt-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-mark-holder">
+								<div class="row add-row">
+									<label for="hojde">Lagerhotel:</label>
+									<input id="hojde" class="text" type="text" value="16,1" />
+									<span>m3</span>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Sø fragt:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="sofragt-ja">Ja</label>
+											<input id="sofragt-ja" class="radio" name="sofragt" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="sofragt-no" class="radio" name="sofragt" type="radio" />
+											<label for="sofragt-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Luft fragt:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="luftfragt-ja">Ja</label>
+											<input id="luftfragt-ja" class="radio" name="luftfragt" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="luftfragt-no" class="radio" name="luftfragt" type="radio" />
+											<label for="luftfragt-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Vej transport:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="transport-ja">Ja</label>
+											<input id="transport-ja" class="radio" name="transport" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="transport-no" class="radio" name="transport" type="radio" />
+											<label for="transport-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Medlem af arbejdsgiverorganisation:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="medlem-ja">Ja</label>
+											<input id="medlem-ja" class="radio" name="medlem" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="medlem-no" class="radio" name="medlem" type="radio" />
+											<label for="medlem-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Overenskomsttegnet virksomhed:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="overenskomsttegnet-ja">Ja</label>
+											<input id="overenskomsttegnet-ja" class="radio" name="overenskomsttegnet" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="overenskomsttegnet-no" class="radio" name="overenskomsttegnet" type="radio" />
+											<label for="overenskomsttegnet-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="radio-box">
+								<div class="row">
+									<label>Social ansvarlighed ved underleverandører:</label>
+									<div class="radio-frame">
+										<div class="radio-holder">
+											<label for="social-ja">Ja</label>
+											<input id="social-ja" class="radio" name="social" type="radio" />
+										</div>
+										<div class="radio-holder">
+											<input id="social-no" class="radio" name="social" type="radio" />
+											<label for="social-no">Nej</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-mark-holder">
+								<div class="row add-bottom-row">
+									<label for="max-veght">Maksimal vægt som kan transporteres:</label>
+									<input id="max-veght" class="text" type="text" value="1238" />
+									<span>kg</span>
+								</div>
+							</div>
+							<div class="text-mark-holder">
+								<div class="row add-bottom-row">
+									<label for="max-m3">Maksimal m3 som kan transporteres:</label>
+									<input id="max-m3" class="text" type="text" value="1238" />
+									<span>m3</span>
+								</div>
+							</div>
+							<div class="stamdata-bottom-box">
+								<strong>Kreditkort oplysninger:</strong>
+								<div class="stamdata-box-holder">
+									<div class="row">
+										<label for="land-bil">Korttype:</label>
+										<select id="land-bil">
+											<option value="Danmark">MatserCard</option>
+											<option value="MatserCard01">MatserCard01</option>
+											<option value="MatserCard02">MatserCard02</option>
+											<option value="MatserCard03">MatserCard03</option>
+											<option value="MatserCard04">MatserCard04</option>
+											<option value="MatserCard05">MatserCard05</option>
+											<option value="MatserCard">MatserCard</option>
+											<option value="MatserCard01">MatserCard01</option>
+											<option value="MatserCard02">MatserCard02</option>
+											<option value="MatserCard03">MatserCard03</option>
+											<option value="MatserCard04">MatserCard04</option>
+											<option value="MatserCard05">MatserCard05</option>
+											<option value="MatserCard">MatserCard</option>
+											<option value="MatserCard01">MatserCard01</option>
+											<option value="MatserCard02">MatserCard02</option>
+											<option value="MatserCard03">MatserCard03</option>
+											<option value="MatserCard04">MatserCard04</option>
+											<option value="MatserCard05">MatserCard05</option>
+										</select>
+									</div>
+									<div class="row">
+										<label for="kaldenavn">Kaldenavn for firma:</label>
+										<input id="kaldenavn" class="text" type="text" value="" />
+									</div>
+									<div class="row">
+										<label for="kort">Kort nr.</label>
+										<input id="kort" class="text" type="text" value="" />
+									</div>
+									<div class="row add-row">
+										<label for="udlobsdato">Udløbsdato:</label>
+										<div class="text-holder">
+											<input id="udlobsdato" class="text" type="text" value="" />
+											<label for="udlobsdato">Måned</label>
+											<input id="ar" class="text" type="text" value="" />
+											<label for="ar">År</label>										</div>
+									</div>
+									<div class="row add-row">
+										<label for="kontrolcifre">Kontrolcifre:</label>
+										<div class="text-holder">
+											<input id="kontrolcifre" class="text" type="text" value="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="submit-holder">
+							<a class="slet-link" href="#">Slet konto</a>
+							<input class="submit" type="submit" value="Opdater stamdata" />
+						</div>					</fieldset>				</form>
+			</div>
+			<aside id="aside">
+				<h3>NEWS</h3>
+				<div class="holder">
+					<div class="aside-box">
+						<p>Gennemførte ordre seneste<br/> 24 timer / Uge / Måned</p>
+					</div>
+					<div class="aside-box">
+						<p>Udtalelse fra brugere</p>
+						<span class="span-margin">Svend Bent fra Grafisk Lys:
+							Vi plejer at bruge den 
+							samme leverandør hver 
+							gang, men har nu ved at 
+							bruge Cargo Market sparet 
+							15 % i snit på vores 
+							transporter, så det;)
+						</span>
+					</div>
+					<div class="aside-box">
+						<p>Seneste tilmeldte transportør/speditør</p>
+						<address>Det bedste bud 7400<br /> Herning</address>
+						<address>Budstikken 5000<br /> Odense</address>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</div>
+</body>
+</html>

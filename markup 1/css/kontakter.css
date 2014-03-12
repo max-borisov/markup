@@ -1,0 +1,142 @@
+#content.kontakter-content {
+	padding:10px;
+	width:595px;
+} 
+table {
+	border:none;
+	margin:20px 0 0;
+}
+table th {
+	text-align:left;
+}
+table td {height:23px;}
+.firma-column {width:110px;}
+.adrese-column {width:160px;}
+.by-column {width:95px;}
+.tlf-column {width:95px;}
+.kontakt-column {width:120px;}
+.link-column {width:45px;}
+.kontakter-content .link-list {overflow:hidden;}
+.kontakter-content .link-list li {
+	float:left;
+	margin:0 4px 0 0;
+}
+.kontakter-content .row {margin:0;}
+.kontakter-top-box {
+	overflow:hidden;
+}
+.kontakter-list {
+	padding:0;	margin:0 20px 0 0;	list-style:none;
+	float:left;
+}
+.kontakter-list li {margin:10px 0 0;}
+.kontakter-list li:first-child {margin:0;}
+.kontakter-list a {
+	width:180px;
+	height:18px;
+	background:#1d70b8;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	behavior:url(css/PIE.htc);
+	position:relative;
+	font-size:13px;
+	line-height:18px;
+	display:block;
+}
+.kontatkter-upload-box {
+	float:right;
+	width:390px;
+	color:#706f6f;
+}
+.opret-box-holder {
+	overflow:hidden;
+    position: relative;
+	display:none;
+}
+.opret-box {
+	background:#f6f6f6;
+    border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	behavior:url(css/PIE.htc);
+    padding: 5px;
+    position: relative;
+	border:2px solid #787878;
+}
+.opret-box {
+	overflow:hidden;
+	margin:12px 0 0;
+}
+.opret-box form .row:first-child {margin:0 0 8px;}
+.opret-box label {
+	display:block;
+	float:none;
+	margin:0 0 3px;
+	line-height:14px;
+	color:#282523;
+	font-weight:bold;
+}
+.opret-select {
+	float:left;
+}
+.opret-text-box {
+	float:left;
+	margin:0 5px 0 0;
+}
+.opret-text-box .text {
+	color:#1d71b8;
+	width:73px;
+}
+.opret-text-box .long-text {width:118px;}
+.opret-box .select-area {
+	width:160px !important;
+	color:#1d71b8;
+}
+.opret-box .submit {
+	float:right;
+	width:180px;
+	height:20px;
+	background:#1d70b8;
+	color:#fff;
+	text-decoration:none;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	box-shadow:0 0 0 #000;
+	-webkit-box-shadow:0 0 0 #000;
+	-moz-box-shadow:0 0 0 #000;
+	behavior:url(css/PIE.htc);
+	border:0 none;
+	cursor:pointer;
+	margin:18px 0 0;
+	
+}
+.opret-box-holder .decor-box {
+	left:-1px;
+	top:-2px;
+}
+.opret-box-holder .decor-box-right {
+	left: 178px;
+	top: -2px;
+}
+.opret-box-holder .decor-box-center {
+    height: 4px;
+    left: 2px;
+    top: 12px;
+    width: 178px;
+    z-index: 2;
+	background:#f6f6f6;
+}
+.opret-box-holder .decor-box-center01 {
+	position:absolute;
+    height: 12px;
+    left: 3px;
+    top: 0;
+    width: 174px;
+    z-index: 2;
+	background:#f6f6f6;
+}

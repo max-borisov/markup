@@ -1,0 +1,71 @@
+.register-tur-form .select-area {width:389px !important;}
+.register-tur-form .form-box {padding:12px;}
+.register-tur-form .radio-box,
+.register-box-holder {
+	padding:9px;
+	border:1px solid #A09892;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	position:relative;
+	behavior:url(css/PIE.htc);
+}
+.register-box {
+	padding:17px 0 0;
+}
+.register-box>strong {
+	display:block;
+	margin:0 0 5px 8px;
+}
+.register-tur-form label {
+	float:left;
+	font-weight:bold;
+	line-height:21px;
+}
+.register-tur-form .radio-box label {line-height:13px;}
+.register-tur-form .radio-box .row {margin:0;}
+.register-box label,
+.radio-box .row>label {width:120px;}
+.register-box .text {
+	width:260px;
+}
+.register-box .add-text {
+	width:94px;
+	margin:0 12px 0 0;
+}
+.register-box .datepicker-text {
+	width:196px;
+	margin:-1px 12px 0 0;
+}
+.register-box .row {margin:9px 0 0;}
+.register-box .row:first-child {margin:0;}
+.bil-row label {width:175px;}
+.bil-row .text {
+	width:187px;
+	text-align:center;
+}
+.register-tur-form .btn-list {
+	overflow:hidden;
+	padding:8px 10px 0 0;
+}
+.register-tur-form .btn-list li {
+	margin:0 0 0 13px;
+}
+.register-tur-form .map-holder {padding:9px 14px;}
+.register-tur-form .map-holder img {display:block;}
+
+.bottom-radio-box .radio-holder label {
+	width:auto;
+	margin:0 14px 0 0;
+}
+.bottom-radio-box .row:first-child .radio-holder label {margin:0 4px 0 0;}
+.bottom-radio-box .hidden-row .row {margin:10px 0 0;}
+
+.bottom-radio-box .radio-holder .chk-area {margin:0 3px 0 0;}
+.hidden-row {position:relative;}
+.bottom-radio-box .text-row label {
+	width:auto;
+	line-height:22px;
+}
+.bottom-radio-box .text-row .text {text-align:center;}
+.first-register-box {padding:0;}

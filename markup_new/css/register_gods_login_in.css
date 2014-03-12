@@ -1,0 +1,43 @@
+.login-in-form #firstTab1 .decor-box-right {
+	left:136px;
+	top:-16px;
+}
+.login-in-form #firstTab1 .decor-box-center {
+	top:-2px;
+	left:0;
+	width:140px;
+	height:5px;
+}
+.login-in-form #firstTab1 .decor-box {
+	right:auto;
+	left:-3px;
+}
+.login-in-form .mark {color:#2A9CCB;}
+.login-in-form .type-row .text {
+	width:29px;
+	padding:3px 2px;
+}
+.login-in-form .type-row .tab label {margin:0;}
+.login-in-form .type-row .text-holder {margin:0 0 0 3px;}
+.login-in-form .type-row .row-holder .row:first-child .text {
+	width:43px;
+	padding:3px 4px;
+}
+.login-in-form .type-row .row-holder .row:first-child label {
+	margin:0 4px 0 0;
+}
+.login-in-form .map-holder label {
+	width:35px;
+}
+.login-in-form .map-holder .select-area {
+	width:410px !important;
+	margin:0 10px 0 0;
+}
+.login-in-form .map-holder .delete-link {
+	color:#000;
+	line-height:22px;
+}
+.map-heading {
+	display:block;
+	margin:0 0 15px 60px;
+}

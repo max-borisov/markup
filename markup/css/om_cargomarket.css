@@ -1,0 +1,38 @@
+.omCargoMarket-content {
+    float: left;
+    position: relative;
+    width: 619px;
+}
+.omCargoMarket-content .text-section {
+	background: url("../images/bg-form-holder.gif") repeat scroll 0 0 transparent;
+    border: 2px solid #3C3C3B;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+    padding: 8px 18px 8px 18px;
+    position: relative;
+	margin:12px 0 0;
+}
+.omCargoMarket-content .text-section:first-child {margin:0;}
+.omCargoMarket-content h2 {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0 0 13px;
+}
+.text-section p {margin:0 0 15px;}
+.mark-span {margin:0 10px 0 0;}
+.text-section ul {
+	padding:0;	margin:0;	list-style:none;
+}
+.text-section ul li {
+	margin:0 0 13px;
+	overflow:hidden;
+}
+.text-section ul span {
+	float:left;
+	width:110px;
+}
+.text-section ul p {
+	overflow:hidden;
+	margin:0;
+}

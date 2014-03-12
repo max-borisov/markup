@@ -1,0 +1,79 @@
+.stamdata-top-box label {
+	width:121px;
+}
+.stamdata-top-box .text {
+	width:435px;
+}
+.stamdata-top-box .add-row .text {width:306px;}
+.stamdata-top-box .add-row .small-text {
+	width:99px;
+	margin:0 10px 0 0;
+}
+.stamdata-form .radio-box {
+	border:1px solid #dcdada;
+	padding:3px 20px 3px 7px;
+	margin:11px 0 0 121px;
+	width:426px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	background:#fff;
+}
+.stamdata-form .radio-box .row:first-child {margin:0;}
+.stamdata-form .radio-box .row>label {
+	width:330px;
+	margin:0;
+}
+.stamdata-form .text-mark-holder {margin:11px 0 0 121px;}
+.stamdata-form .add-bottom-row label {width:235px;}
+.stamdata-form .add-bottom-row .text {
+	text-align:center;
+	color:#2A9CCB;
+}
+.stamdata-bottom-box {padding:20px 0 0;}
+.stamdata-bottom-box strong {
+	font-weight:normal;
+	display:block;
+	margin:0 0 5px;
+}
+.stamdata-box-holder {
+	border:1px solid #dcdada;
+	padding:8px 9px 8px 17px;
+	width:426px;
+	margin:0 0 0 121px;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	background:#fff;
+	position:relative;
+	behavior:url(css/PIE.htc);
+}
+.stamdata-box-holder .text {width:281px;}
+.stamdata-box-holder .row>label {width:125px;}
+.stamdata-box-holder .select-area {width:284px !important;}
+.stamdata-box-holder .add-row .text {
+	float:left;
+	width:30px;
+	margin:0 7px 0 0;
+}
+.stamdata-form .submit {width:136px;}
+.stamdata-box-holder .text-holder label {margin:0 22px 0 0;}
+.slet-link {
+	float:left;
+	margin:10px 0 0 15px;
+	color:#e30613;
+	padding:0 15px;
+	font-size:11px;
+	line-height:18px;
+	border:1px solid #dcdada;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	background:#fff;
+	position:relative;
+	behavior:url(css/PIE.htc);
+}
+
